@@ -9,10 +9,9 @@ const Home: NextPage = () => {
     <div className="">
       <Head>
         <title>Twitter Clone</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className='grid grid-cols-9'>
         <Sidebar />
 
         <Feed />
